@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "motion/react"
 import { FaGitAlt } from "react-icons/fa";
+import { IoDocumentTextOutline } from "react-icons/io5";
 
 const WorkCard = ({work}) => {
   return (
@@ -29,9 +30,17 @@ const WorkCard = ({work}) => {
             <div className="p-5">
               <div className="flex justify-between">
                 <h3 className="font-bold text-sm 2xl:text-base">{work.title}</h3>
-                <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
-                hover:bg-background2 hover:text-fc1 transition-colors duration-300">
-                  <a href={work.gitUrl} target="blank"><FaGitAlt size={22}/></a>
+                <div className="flex gap-[1px] mt-[-5px] mb-[5px]">
+                  {work.DocumentUrl && (
+                    <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
+                    hover:bg-background2 hover:text-fc1 transition-colors duration-300">
+                      <a href={work.DocumentUrl} target="blank"><IoDocumentTextOutline size={22}/></a>
+                    </div>
+                  )}
+                  <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
+                  hover:bg-background2 hover:text-fc1 transition-colors duration-300">
+                    <a href={work.gitUrl} target="blank"><FaGitAlt size={22}/></a>
+                  </div>
                 </div>
               </div>
               <div>
@@ -70,13 +79,18 @@ const WorkCard = ({work}) => {
             <div className="p-5">
               <div className="flex justify-between">
                 <h3 className="font-bold text-sm 2xl:text-base">Coming Soon...</h3>
-                <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
-                hover:bg-background2 hover:text-fc1 transition-colors duration-300">
-                  <a href={work.gitUrl} target="blank"><FaGitAlt size={22}/></a>
+                <div className="flex gap-[1px] mt-[-5px] mb-[3px]">
+                  {work.DocumentUrl && (
+                    <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
+                    hover:bg-background2 hover:text-fc1 transition-colors duration-300">
+                      <a href={work.DocumentUrl} target="blank"><IoDocumentTextOutline size={22}/></a>
+                    </div>
+                  )}
+                  <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
+                  hover:bg-background2 hover:text-fc1 transition-colors duration-300">
+                    <a href={work.gitUrl} target="blank"><FaGitAlt size={22}/></a>
+                  </div>
                 </div>
-                {/* <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1 opacity-0">
-                  <FaGitAlt size={22}/>
-                </div> */}
               </div>
               <div>
                 {work.tools.map((tool, i) => (

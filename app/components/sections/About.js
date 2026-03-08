@@ -28,7 +28,7 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p>MOE HATANAKA ―― 神戸市在住<br></br>
-              社内向けのWebアプリケーション運用窓口業務を経て、職業訓練校等でWebエンジニアを目指して勉強しています。</p>
+              社内向け業務システムの運用窓口業務を経て、職業訓練校等で開発エンジニアを目指して勉強しています。</p>
               <div className="flex flex-col items-center mt-10 md:mt-15 md:flex-row md:justify-between">
 
                   <div className="flex flex-col justify-around items-center mb-8 md:mb-0 max-w-[80vw] md:max-w-[200px] 2xl:max-w-[280px]">
@@ -38,7 +38,7 @@ export default function About() {
                       </div>
                       <h3 className="font-bold text-sm md:mt-6 2xl:text-base ">社内表彰を受賞</h3>
                     </div>
-                    <p className="mt-3 md:mt-5">前職でシステム運用窓口業務の品質を評価頂き、客先企業様の表彰を受賞しました。</p>
+                    <p className="mt-3 md:mt-5">前職にてシステム運用窓口業務の品質を評価頂き、客先企業様の表彰を受賞しました。</p>
                   </div>
 
                   <div className="flex flex-col justify-around items-center mb-8 md:mb-0 max-w-[80vw] md:max-w-[200px] 2xl:max-w-[280px]">
@@ -46,7 +46,7 @@ export default function About() {
                       <div className="w-[100px] mr-6 md:mr-0 md:w-3/4 2xl:w-full">
                         <Image src="/aboutimages/2n.svg" alt='' width={160} height={160} className="w-full h-auto"/>
                       </div>
-                      <h3 className="font-bold text-sm md:mt-6 2xl:text-base ">期待以上が目標</h3>
+                      <h3 className="font-bold text-sm md:mt-6 2xl:text-base ">とことん追求</h3>
                     </div>
                     <p className="mt-5">任された仕事はとことん追求し、期待以上の結果をお返ししたいと思っています。</p>
                   </div>
@@ -56,9 +56,9 @@ export default function About() {
                       <div className="w-[100px] mr-6 md:mr-0 md:w-3/4 2xl:w-full">
                         <Image src="/aboutimages/3.svg" alt='' width={160} height={160} className="w-full h-auto"/>
                       </div>
-                      <h3 className="font-bold text-sm md:mt-6 2xl:text-base ">真面目な正直者</h3>
+                      <h3 className="font-bold text-sm md:mt-6 2xl:text-base ">対話と分析</h3>
                     </div>
-                    <p className="mt-5">真面目で正直な性格です。相手を尊重し、誠意を以て人と接するのがモットーです。</p>
+                    <p className="mt-5">コミュニケーションを重視し、お客様のご要望を正確に理解するよう心がけています。</p>
                   </div>
 
               </div>
