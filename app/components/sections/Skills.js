@@ -39,6 +39,7 @@ export default function Skills() {
               <li>Flask</li>
               <li>MySQL</li>
               <li>Figma</li>
+              <li>Java</li>
             </ul>
           </motion.div>
 

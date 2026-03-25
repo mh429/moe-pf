@@ -28,7 +28,7 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p>MOE HATANAKA ―― 神戸市在住<br></br>
-              社内向けシステムの運用窓口業務を経て、職業訓練校等で開発エンジニアを目指して勉強しています。</p>
+              社内向けWebシステムの運用窓口業務を経て、職業訓練校等で開発エンジニアを目指して勉強しています。</p>
               <div className="flex flex-col items-center mt-10 md:mt-15 md:flex-row md:justify-between">
 
                   <div className="flex flex-col justify-around items-center mb-8 md:mb-0 max-w-[80vw] md:max-w-[200px] 2xl:max-w-[280px]">
@@ -58,7 +58,7 @@ export default function About() {
                       </div>
                       <h3 className="font-bold text-sm md:mt-6 2xl:text-base ">正直な性格</h3>
                     </div>
-                    <p className="mt-5">オープンな性格です。思いやりを持ちつつ、正直な対話でより良い成果を築きたいです。</p>
+                    <p className="mt-5">オープンな性格です。思いやりを大切にしつつ、正直な対話で良い成果を築きたいです。</p>
                   </div>
 
               </div>
