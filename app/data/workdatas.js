@@ -30,7 +30,7 @@ export const workdatas = [
         gitUrl: "https://github.com/mh429/simple-closet",
         DocumentUrl: "https://www.canva.com/design/DAHC2bORpB0/Yv5ygY2IEOLhuFH-DwP1mA/view?utm_content=DAHC2bORpB0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hec0a81720c",
         vercelUrl: "https://simple-closet.vercel.app/",
-        description: ["Next.jsとSupabaseを使用して、シンプルで操作性の良いクローゼットアプリを制作しました。","「ファッション好きではないが、毎日ベストな服装で過ごしたい人」をターゲットとし、多機能すぎず丁度良く管理できるアプリを目指しました。","","【デモ用アカウント】","ID：demo@demo.com","Pass：portfolio2026"]
+        description: ["Next.jsとSupabaseを使用して、シンプルで操作性の良いクローゼットアプリを制作しました。","「ファッション好きではないが、毎日ベストな服装で過ごしたい人」をターゲットとし、多機能すぎず丁度良く管理できるアプリを目指しました。","---------------------------------------------","【デモ用アカウント】","ID：demo@demo.com","パスワード：portfolio2026"]
     },
     {
         slug: "work4",
