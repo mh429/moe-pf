@@ -40,7 +40,7 @@ export const workdatas = [
         image: "/workimages/mw-lab.jpg",
         gitUrl: "https://github.com/mh429/mini-wallet-lab",
         vercelUrl: "https://mini-wallet-lab.onrender.com/",
-        description: ["PythonとMySQLで、PCサイズのECデモを制作しました。","仕様が足りていない箇所もありますが、ユーザ側の商品購入機能と、店舗側の管理者機能を実装しています。","※Renderの無料枠でデプロイしているため、起動まで1分ほどかかります","---------------------------------------------","【デモ用アカウント】","ユーザID：demo@demo.com","管理者ID：staff@demo.com","パスワード（共通）：portfolio2026"],
+        description: ["PythonとMySQLで、ECサイトのPCサイズデモを制作しました。","簡易的なもので改善余地も多いですが、ユーザ側の商品購入機能と、店舗側の管理者機能を実装しています。","※Render無料枠でのデプロイのため、起動まで1分ほどかかります","---------------------------------------------","【デモ用アカウント】","ユーザID：demo@demo.com","管理者ID：staff@demo.com","パスワード（共通）：portfolio2026"],
     },
     // {
     //     slug: "work5",
