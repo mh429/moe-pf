@@ -34,13 +34,13 @@ export const workdatas = [
     },
     {
         slug: "work4",
-        status: false,
+        status: true,
         title: "MINI WALLET Lab",
-        tools: ["Python","Flask","MySQL","XAMPP",],
+        tools: ["Python","Flask","Blueprint","MySQL","XAMPP",],
         image: "/workimages/mw-lab.jpg",
         gitUrl: "https://github.com/mh429/mini-wallet-lab",
-        vercelUrl: "",
-        description: ["PythonとMySQLでショッピングサイトのデモを制作中です。","3月中に公開予定です。"],
+        vercelUrl: "https://mini-wallet-lab.onrender.com/",
+        description: ["PythonとMySQLでECサイトのデモを制作しました。","仕様が足りていない箇所も多いですが、ユーザ側の商品購入機能と、店舗側の管理者機能を実装しています。","※Renderの無料枠でデプロイしているため、起動まで1分ほどかかります","---------------------------------------------","【デモ用アカウント】","ユーザID：demo@demo.com","管理者ID：staff@demo.com","パスワード（共通）：portfolio2026"],
     },
     // {
     //     slug: "work5",
