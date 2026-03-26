@@ -19,7 +19,7 @@ export const workdatas = [
         image: "/workimages/neko-game.jpg",
         gitUrl: "https://github.com/mh429/neko-game",
         vercelUrl: "https://neko-game-azure.vercel.app/",
-        description: ["JavaScriptの練習でゲームを作成しました。","エラーチェックや時間の制御を工夫したり、ロジックを考えるのが面白かったです。","猫のイラストはCanvaAIで生成しました。"]
+        description: ["JavaScriptの練習で、PCサイズのゲームを作成しました。","エラーチェックや時間の制御を工夫したり、ロジックを考えるのが面白かったです。","猫のイラストはCanvaAIで生成しました。"]
     },
     {
         slug: "work3",
@@ -40,7 +40,7 @@ export const workdatas = [
         image: "/workimages/mw-lab.jpg",
         gitUrl: "https://github.com/mh429/mini-wallet-lab",
         vercelUrl: "https://mini-wallet-lab.onrender.com/",
-        description: ["PythonとMySQLでECサイトのデモを制作しました。","仕様が足りていない箇所も多いですが、ユーザ側の商品購入機能と、店舗側の管理者機能を実装しています。","※Renderの無料枠でデプロイしているため、起動まで1分ほどかかります","---------------------------------------------","【デモ用アカウント】","ユーザID：demo@demo.com","管理者ID：staff@demo.com","パスワード（共通）：portfolio2026"],
+        description: ["PythonとMySQLで、PCサイズのECデモを制作しました。","仕様が足りていない箇所もありますが、ユーザ側の商品購入機能と、店舗側の管理者機能を実装しています。","※Renderの無料枠でデプロイしているため、起動まで1分ほどかかります","---------------------------------------------","【デモ用アカウント】","ユーザID：demo@demo.com","管理者ID：staff@demo.com","パスワード（共通）：portfolio2026"],
     },
     // {
     //     slug: "work5",
