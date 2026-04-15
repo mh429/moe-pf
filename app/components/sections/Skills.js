@@ -40,6 +40,8 @@ export default function Skills() {
               <li>MySQL</li>
               <li>Figma</li>
               <li>Java</li>
+              <li>PHP</li>
+              <li>Claude Code</li>
             </ul>
           </motion.div>
 

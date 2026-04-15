@@ -43,9 +43,9 @@ const WorkCard = ({work}) => {
                   </div>
                 </div>
               </div>
-              <div>
+              <div className="flex flex-wrap gap-1.5">
                 {work.tools.map((tool, i) => (
-                    <span key={i} className="bg-background2 px-2 pb-[1px] rounded-full text-gray2 text-xs mr-1 border border-gray1">
+                    <span key={i} className="bg-background2 px-2 pb-[1px] rounded-full text-gray2 text-xs border border-gray1">
                     {tool}
                     </span>
                 ))}
@@ -68,17 +68,23 @@ const WorkCard = ({work}) => {
           viewport={{ once: true }}
         >
           <div className="border border-gray1 bg-background2 rounded-[15px] h-full">
-              <div className="h-[210px] mt-5 overflow-hidden 2xl:h-[250px] border-t border-b border-gray1">
+              <div className="relative h-[210px] mt-5 overflow-hidden 2xl:h-[250px] border-t border-b border-gray1">
                 <Image
                   src={work.image}
                   alt="クリックでアプリケーションが開きます"
                   width={800}
                   height={500}
                 />
+                <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                  <p className="text-white text-xl">
+                    Coming Soon...
+                  </p>
+                </div>
               </div>
             <div className="p-5">
               <div className="flex justify-between">
-                <h3 className="font-bold text-sm 2xl:text-base">Coming Soon...</h3>
+                {/* <h3 className="font-bold text-sm 2xl:text-base">Coming Soon...</h3> */}
+                <h3 className="font-bold text-sm 2xl:text-base">{work.title}</h3>
                 <div className="flex gap-[1px] mt-[-5px] mb-[3px]">
                   {work.DocumentUrl && (
                     <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
@@ -86,15 +92,17 @@ const WorkCard = ({work}) => {
                       <a href={work.DocumentUrl} target="blank"><IoDocumentTextOutline size={22}/></a>
                     </div>
                   )}
-                  <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
-                  hover:bg-background2 hover:text-fc1 transition-colors duration-300">
-                    <a href={work.gitUrl} target="blank"><FaGitAlt size={22}/></a>
-                  </div>
+                  {work.gitUrl && (
+                    <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
+                    hover:bg-background2 hover:text-fc1 transition-colors duration-300">
+                      <a href={work.gitUrl} target="blank"><FaGitAlt size={22}/></a>
+                    </div>
+                  )}
                 </div>
               </div>
-              <div>
+              <div className="flex flex-wrap gap-1.5">
                 {work.tools.map((tool, i) => (
-                    <span key={i} className="bg-background2 px-2 pb-[1px] rounded-full text-gray2 text-xs mr-1 border border-gray1">
+                    <span key={i} className="bg-background2 px-2 pb-[1px] rounded-full text-gray2 text-xs border border-gray1">
                     {tool}
                     </span>
                 ))}
