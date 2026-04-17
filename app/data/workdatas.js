@@ -42,8 +42,19 @@ export const workdatas = [
         vercelUrl: "https://mini-wallet-lab.onrender.com/",
         description: ["PythonとMySQLで、ECサイトのPCサイズデモを制作しました。","簡易的なものですが、ユーザ側の商品購入機能と、店舗側の管理者機能を実装しています。","※Render無料枠でのデプロイのため、起動まで1分ほどかかります","---------------------------------------------","【デモ用アカウント】","ユーザID：demo@demo.com","管理者ID：staff@demo.com","パスワード（共通）：portfolio2026"],
     },
+    {
+        slug: "work5",
+        status: false,
+        title: "IPアドレス管理システム",
+        tools: ["Next.js","Supabase","PostgreSQL"],
+        image: "/workimages/ipam.jpg",
+        gitUrl: "",
+        DocumentUrl: "https://canva.link/jbu5ftyfjbqmzeq",
+        vercelUrl: "",
+        description: ["社内の固定IPを管理する、架空の業務システムを企画し、企画資料を作成しました。","できる所から少しずつ実装していく予定です。"]
+    },
     // {
-    //     slug: "work5",
+    //     slug: "work6",
     //     status: true,
     //     title: "Work Sample⑤",
     //     tools: ["","","","",],
