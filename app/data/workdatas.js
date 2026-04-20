@@ -51,7 +51,7 @@ export const workdatas = [
         gitUrl: "",
         DocumentUrl: "https://canva.link/jbu5ftyfjbqmzeq",
         vercelUrl: "",
-        description: ["社内の固定IPを管理する、架空の業務システムを企画し、企画資料を作成しました。","できる所から少しずつ実装していく予定です。"]
+        description: ["社内の固定IPを管理する、架空の業務システムを企画し、企画資料を作成しました。","右上の黒い書類アイコンからご覧頂けます。","できる所から少しずつ実装していく予定です。"]
     },
     // {
     //     slug: "work6",
