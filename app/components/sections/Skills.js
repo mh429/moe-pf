@@ -36,6 +36,7 @@ export default function Skills() {
               <li>TypeScript</li>
               <li>Tailwind CSS</li>
               <li>Figma</li>
+              <li>WordPress</li>
               <li>MySQL/PostgreSQL</li>
               <li>Java</li>
               <li>Python(Flask)</li>
