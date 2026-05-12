@@ -35,13 +35,13 @@ export default function Skills() {
               <li>Next.js</li>
               <li>TypeScript</li>
               <li>Tailwind CSS</li>
-              <li>Python</li>
-              <li>Flask</li>
-              <li>MySQL</li>
               <li>Figma</li>
+              <li>MySQL/PostgreSQL</li>
               <li>Java</li>
-              <li>PHP</li>
-              <li>Claude Code</li>
+              <li>Python(Flask)</li>
+              <li>PHP(Laravel)</li>
+              <li>Claude</li>
+              <li>Docker</li>
             </ul>
           </motion.div>
 
