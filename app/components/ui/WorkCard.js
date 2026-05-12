@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "motion/react"
 import { FaGitAlt } from "react-icons/fa";
+import { TbBrandGithub } from "react-icons/tb";
 import { IoDocumentTextOutline } from "react-icons/io5";
 
 const WorkCard = ({work}) => {
